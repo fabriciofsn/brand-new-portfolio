@@ -27,7 +27,7 @@ const Header = () => {
                 </NavLink>
               </StyledList>
               <StyledList>
-                <NavLink className="nav-link" to="skill">
+                <NavLink className="nav-link" to="skills">
                   skills
                 </NavLink>
               </StyledList>
