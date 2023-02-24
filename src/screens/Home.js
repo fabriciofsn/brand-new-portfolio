@@ -8,7 +8,7 @@ import {
   DivTypical,
 } from "../styles/Home";
 import Typical from "react-typical";
-import Social from "./Social";
+import Social from "../components/Social";
 
 const Home = () => {
   return (

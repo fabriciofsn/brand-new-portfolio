@@ -19,11 +19,6 @@ export const StyledH1 = styled.h1`
   width: 100%;
 `;
 
-export const SpanColorized = styled.span`
-  color: #90a0d9;
-  width: 100%;
-`;
-
 export const animHomePage = keyframes`
   from{
     opacity: 0;

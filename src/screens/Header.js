@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <HeaderStyled>
       <DivFlex>
-        <StyledH2>JS.</StyledH2>
+        <StyledH2>FS.</StyledH2>
         <div>
           <nav>
             <StyledUl>
