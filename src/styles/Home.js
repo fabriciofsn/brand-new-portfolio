@@ -27,7 +27,7 @@ export const SpanColorized = styled.span`
 export const animHomePage = keyframes`
   from{
     opacity: 0;
-    transform: translate3d(-30px,0,0);
+    transform: translate3d(-50px,0,0);
   }
   to{
     opacity: 1;
