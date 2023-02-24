@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import { animHomePage } from "../styles/Home";
 
 export const SocialMedias = styled.div`
+  animation: ${animHomePage} 1s ease;
   width: 100%;
   max-width: 300px;
   display: flex;

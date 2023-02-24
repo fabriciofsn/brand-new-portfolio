@@ -38,7 +38,7 @@ const Home = () => {
             for a while. I have studied HTML5, CSS3, JavaScript. Now, i'm
             studing React.js and Node.js. I have done some personal projects
             since then. Come check, ah... and don't forget to take a look on my
-            social medias as well, which are here, down below
+            social medias as well, which are here, down below.
           </p>
         </AboutMe>
         <Social />
