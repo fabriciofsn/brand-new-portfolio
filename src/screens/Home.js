@@ -2,7 +2,6 @@ import React from "react";
 import {
   StyledDiv,
   StyledH1,
-  SpanColorized,
   DivCenter,
   AboutMe,
   DivTypical,
@@ -12,7 +11,7 @@ import Social from "../components/Social";
 
 const Home = () => {
   return (
-    <StyledDiv>
+    <StyledDiv id="home">
       <DivCenter>
         <DivTypical>
           <Typical

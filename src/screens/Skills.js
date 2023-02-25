@@ -1,5 +1,5 @@
 import React from "react";
-import { DivSkills } from "../styles/Skills";
+import { DivSkills, SectionWrapper } from "../styles/Skills";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { DiJavascript1 } from "react-icons/di";
@@ -11,10 +11,10 @@ import { Divicons, DivList } from "../styles/Skills";
 
 const Skills = () => {
   return (
-    <div>
+    <SectionWrapper style={{ textAlign: "center" }}>
+      <StyledH2>Hard Skills</StyledH2>
       <DivSkills>
         <div>
-          <StyledH2>Hard Skills</StyledH2>
           <Divicons>
             <AiFillHtml5 title="html5" className="icon" />
             <DiCss3 title="css3" className="icon" />
@@ -27,9 +27,9 @@ const Skills = () => {
             <FaGit title="git" className="icon" />
             <AiFillGithub title="github" className="icon" />
           </Divicons>
-          <StyledH2>Soft Skills</StyledH2>
         </div>
       </DivSkills>
+      <StyledH2>Soft Skills</StyledH2>
 
       <DivSkills>
         <DivList>
@@ -53,7 +53,7 @@ const Skills = () => {
           </Divicons>
         </DivList>
       </DivSkills>
-    </div>
+    </SectionWrapper>
   );
 };
 

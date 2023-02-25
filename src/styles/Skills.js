@@ -11,6 +11,11 @@ export const DivSkills = styled.div`
   animation: ${animHomePage} 1s ease;
 `;
 
+export const SectionWrapper = styled.section`
+  text-align: center;
+  animation: ${animHomePage} 2s ease;
+`;
+
 export const Divicons = styled.div`
   width: 100%;
   max-width: 1000px;
@@ -22,9 +27,14 @@ export const Divicons = styled.div`
 
   .icon {
     font-size: 2rem;
+    margin: 0 20px;
+  }
+  ul {
+    text-align: left;
   }
   .list {
     color: #0d6efd;
+    margin: 2px 5px;
   }
 `;
 

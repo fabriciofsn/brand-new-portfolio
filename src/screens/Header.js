@@ -31,11 +31,6 @@ const Header = () => {
                   skills
                 </NavLink>
               </StyledList>
-              <StyledList>
-                <NavLink className="nav-link" to="contact">
-                  contact
-                </NavLink>
-              </StyledList>
             </StyledUl>
           </nav>
         </div>
