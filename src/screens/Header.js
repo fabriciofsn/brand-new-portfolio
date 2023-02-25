@@ -17,12 +17,12 @@ const Header = () => {
           <nav>
             <StyledUl>
               <StyledList>
-                <NavLink className="nav-link" to="/">
+                <NavLink className="nav-link" to="/" end>
                   home
                 </NavLink>
               </StyledList>
               <StyledList>
-                <NavLink className="nav-link" to="projects" end>
+                <NavLink className="nav-link" to="projects">
                   projects
                 </NavLink>
               </StyledList>
