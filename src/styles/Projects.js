@@ -22,5 +22,6 @@ export const SectionWrapper = styled.section`
     text-decoration: none;
     margin: 0 5px;
     color: #90a0d9;
+    font-size: 1.2rem;
   }
 `;

@@ -2,7 +2,9 @@ import React from "react";
 
 const Div = ({ title, quote, icon, ...props }) => {
   return (
-    <div>
+    <div
+      style={{ border: "1px solid #ccc", borderRadius: "5px", padding: "1rem" }}
+    >
       <h2>{title}</h2>
       <p>{quote}</p>
       <a title="Link github" target="_blank" href={props.github}>
