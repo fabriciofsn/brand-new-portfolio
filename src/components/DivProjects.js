@@ -7,10 +7,16 @@ const Div = ({ title, quote, icon, ...props }) => {
     >
       <h2>{title}</h2>
       <p>{quote}</p>
-      <a title="Link github" target="_blank" href={props.github}>
+
+      <a title="Link GitHub" target="_blank" href={props.github}>
         <span>{icon}</span>
       </a>
-      <a title="Site online" target="_blank" href={props.href}>
+      <a
+        style={{ color: "#0d6efd" }}
+        title="Site online"
+        target="_blank"
+        href={props.href}
+      >
         {props.name}
       </a>
     </div>

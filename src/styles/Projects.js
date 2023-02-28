@@ -24,4 +24,13 @@ export const SectionWrapper = styled.section`
     color: #90a0d9;
     font-size: 1.2rem;
   }
+
+  .langs {
+    width: 100%;
+    max-width: 100px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
