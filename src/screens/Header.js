@@ -30,6 +30,16 @@ const Header = () => {
                 <NavLink className="nav-link" to="skills">
                   skills
                 </NavLink>
+
+                <a
+                  className="linkExternal"
+                  href="https://drive.google.com/file/
+                  d/1aoQRjS2qs5_O-h
+                  15cEk-7fAKmPg8kU13
+                  /view?usp=sharing"
+                >
+                  Download CV
+                </a>
               </StyledList>
             </StyledUl>
           </nav>

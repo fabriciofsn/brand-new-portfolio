@@ -3,8 +3,6 @@ import Div from "../components/DivProjects";
 import { SectionWrapper } from "../styles/Projects";
 import { BsGithub } from "react-icons/bs";
 import { HiOutlineExternalLink } from "react-icons/hi";
-import { FaReact } from "react-icons/fa";
-import { SiStyledcomponents } from "react-icons/si";
 
 const Projects = () => {
   return (
