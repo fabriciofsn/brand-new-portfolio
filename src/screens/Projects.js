@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <SectionWrapper>
       <Div
-        title="Atualizações Covid-19"
+        title="Updates Covid-19"
         quote="Hi... This is a project, which i have used an API 
         who shows the current cases of covid-19. You, also, can
         see the current situation of every state of Brazil."
@@ -18,10 +18,14 @@ const Projects = () => {
         name={<HiOutlineExternalLink size={22} />}
       />
       <Div
-        title="Atualizações Covid-19"
-        quote="olá pessoal"
+        title="Local Weather Forecast"
+        quote="Hi... this is a project, where i'm developing a 
+        Forecast Weather system. On this system you may be able to
+        see your local and everywhere tempeture.
+        "
         icon={<BsGithub size={20} />}
-        href="https://projeto-covid19-api.vercel.app/"
+        github="https://github.com/fabriciofsn/weather"
+        href="https://previsaodotempo-iota.vercel.app/"
         name={<HiOutlineExternalLink />}
       />
     </SectionWrapper>

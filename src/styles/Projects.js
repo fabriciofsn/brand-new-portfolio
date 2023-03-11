@@ -1,5 +1,14 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { animHomePage } from "./Home";
+
+export const anim = keyframes`
+  from{
+    transform: translate3d(0,0,0);
+  }
+  to{
+    transform: translate3d(0,-30px,0);
+  }
+`;
 
 export const SectionWrapper = styled.section`
   width: 100%;
@@ -12,6 +21,11 @@ export const SectionWrapper = styled.section`
   color: #90a0d9;
   text-align: center;
 
+  div {
+    &:hover {
+      animation: ${anim} 0.5s forwards;
+    }
+  }
   p {
     width: 100%;
     max-width: 400px;
